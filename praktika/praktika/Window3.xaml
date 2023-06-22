@@ -1,0 +1,16 @@
+﻿<Window x:Class="Diplom.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom"
+        mc:Ignorable="d"
+        Title="Давыдовский 3 д 28" Height="450" Width="800"
+        WindowState="Maximized">
+    <Grid>
+        <Button Content="Назад" Margin="10,0,0,10" Click="Back2" HorizontalContentAlignment="Stretch" HorizontalAlignment="Left" Width="100" Height="25" VerticalAlignment="Bottom"/>
+        <TextBlock HorizontalAlignment="Left"  Margin="170,100,0,0" TextWrapping="Wrap" Text="Давыдовский 3 д 28" VerticalAlignment="Top" Width="230" Height="120" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left"  Margin="430,100,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="230" Name="box" Text="150523" Height="120" FontSize="20" />
+
+    </Grid>
+</Window>
